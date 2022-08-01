@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import ContactMain from '../components/Contact/ContactMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import ExploreArtsMain from '../src/components/ExploreArts/ExploreArtsMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
-export default function Contact() {
+export default function ExploreArts() {
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function Contact() {
       </Head>
 
       <Header />
-      <ContactMain />
+      <ExploreArtsMain />
       <Footer />
     </>
   )

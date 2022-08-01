@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
-import TermsMain from '../components/Terms/TermsMain';
+import ContactMain from '../src/components/Contact/ContactMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
-export default function Terms() {
+export default function Contact() {
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function Terms() {
       </Head>
 
       <Header />
-      <TermsMain />
+      <ContactMain />
       <Footer />
     </>
   )

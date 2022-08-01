@@ -1,11 +1,12 @@
 import Head from 'next/head';
 import React from 'react';
-import FaqMain from '../components/Faq/FaqMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
+import LoginMain from '../src/components/Login/LoginMain';
 
 
-export default function Faq() {
+
+export default function Login() {
 
   return (
     <>
@@ -16,7 +17,7 @@ export default function Faq() {
       </Head>
 
       <Header />
-      <FaqMain />
+      <LoginMain />
       <Footer />
     </>
   )

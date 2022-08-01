@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
-import ActivityMain from '../components/Activity/ActivityMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import ActivityMain from '../src/components/Activity/ActivityMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
 export default function Activity() {

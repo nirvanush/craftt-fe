@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
-import ArtDetailsMain from '../components/ArtDetails/ArtDetailsMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import ArtDetailsMain from '../src/components/ArtDetails/ArtDetailsMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
 export default function Contact() {

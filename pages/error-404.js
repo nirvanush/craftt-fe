@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
-import SignUpMain from '../components/SignUp/SignUpMain';
+import ErrorPageMain from '../src/components/ErrorPage/ErrorPageMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
-export default function Register() {
+export default function ErrorPage() {
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function Register() {
       </Head>
 
       <Header />
-      <SignUpMain />
+      <ErrorPageMain />
       <Footer />
     </>
   )

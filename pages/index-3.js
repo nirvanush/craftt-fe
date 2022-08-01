@@ -1,11 +1,10 @@
 import Head from 'next/head';
 import React from 'react';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
-import UploadMain from '../components/Upload/UploadMain';
+import HomeThreeMain from '../src/components/HomeThree/HomeThreeMain';
+import FooterTwo from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
 
 
-export default function Upload() {
+export default function HomeThree() {
 
     return (
         <>
@@ -15,9 +14,8 @@ export default function Upload() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Header />
-            <UploadMain />
-            <Footer />
+            <HomeThreeMain />
+            <FooterTwo />
         </>
     )
 }

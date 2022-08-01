@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import React from 'react';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
-import UploadCategoryMain from '../components/UploadCategory/UploadCategoryMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
+import UploadCategoryMain from '../src/components/UploadCategory/UploadCategoryMain';
 
 
 export default function UploadCategory() {

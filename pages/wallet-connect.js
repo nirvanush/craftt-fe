@@ -1,11 +1,12 @@
 import Head from 'next/head';
 import React from 'react';
-import ForumMain from '../components/Forum/ForumMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
+import WalletConnectMain from '../src/components/WalletConnect/WalletConnectMain';
 
 
-export default function Contact() {
+
+export default function WalletConnect() {
 
   return (
     <>
@@ -16,7 +17,7 @@ export default function Contact() {
       </Head>
 
       <Header />
-      <ForumMain />
+      <WalletConnectMain />
       <Footer />
     </>
   )

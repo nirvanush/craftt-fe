@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import CreatorProfileInfoMain from '../components/CreatorProfileInfo/CreatorProfileInfoMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import CreatorsMain from '../src/components/Creators/CreatorsMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
-export default function CreatorProfileInfo() {
+export default function Creators() {
 
     return (
         <>
@@ -16,7 +16,7 @@ export default function CreatorProfileInfo() {
             </Head>
 
             <Header />
-            <CreatorProfileInfoMain />
+            <CreatorsMain />
             <Footer />
         </>
     )

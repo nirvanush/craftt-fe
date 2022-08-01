@@ -1,10 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import HomeThreeMain from '../components/HomeThree/HomeThreeMain';
-import FooterTwo from '../components/Layout/Footer/FooterTwo/FooterTwo';
+import CreatorProfileInfoMain from '../src/components/CreatorProfileInfo/CreatorProfileInfoMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
-export default function HomeThree() {
+export default function CreatorProfileInfo() {
 
     return (
         <>
@@ -14,8 +15,9 @@ export default function HomeThree() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <HomeThreeMain />
-            <FooterTwo />
+            <Header />
+            <CreatorProfileInfoMain />
+            <Footer />
         </>
     )
 }

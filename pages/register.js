@@ -1,12 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
-import LoginMain from '../components/Login/LoginMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
+import SignUpMain from '../src/components/SignUp/SignUpMain';
 
 
-
-export default function Login() {
+export default function Register() {
 
   return (
     <>
@@ -17,7 +16,7 @@ export default function Login() {
       </Head>
 
       <Header />
-      <LoginMain />
+      <SignUpMain />
       <Footer />
     </>
   )

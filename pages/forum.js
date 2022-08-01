@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import ErrorPageMain from '../components/ErrorPage/ErrorPageMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import ForumMain from '../src/components/Forum/ForumMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
-export default function ErrorPage() {
+export default function Contact() {
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function ErrorPage() {
       </Head>
 
       <Header />
-      <ErrorPageMain />
+      <ForumMain />
       <Footer />
     </>
   )

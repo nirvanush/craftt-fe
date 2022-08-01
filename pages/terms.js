@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import ArtRankingMain from '../components/ArtRanking/ArtRankingMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
+import TermsMain from '../src/components/Terms/TermsMain';
 
 
-export default function ArtRanking() {
+export default function Terms() {
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function ArtRanking() {
       </Head>
 
       <Header />
-      <ArtRankingMain />
+      <TermsMain />
       <Footer />
     </>
   )

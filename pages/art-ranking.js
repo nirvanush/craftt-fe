@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import React from 'react';
-import ExploreArtsMain from '../components/ExploreArts/ExploreArtsMain';
-import Footer from '../components/Layout/Footer/FooterTwo/FooterTwo';
-import Header from '../components/Layout/Header/Header';
+import ArtRankingMain from '../src/components/ArtRanking/ArtRankingMain';
+import Footer from '../src/components/Layout/Footer/FooterTwo/FooterTwo';
+import Header from '../src/components/Layout/Header/Header';
 
 
-export default function ExploreArts() {
+export default function ArtRanking() {
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function ExploreArts() {
       </Head>
 
       <Header />
-      <ExploreArtsMain />
+      <ArtRankingMain />
       <Footer />
     </>
   )
