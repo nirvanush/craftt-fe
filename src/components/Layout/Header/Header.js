@@ -87,7 +87,7 @@ const Header = ({ HeaderStatic }) => {
                                           <li><Link href="/error-404"><a>404 page</a></Link></li>
                                        </ul>
                                     </li> */}
-                                    <li><Link href="/forum"><a>Post a job</a></Link></li>
+                                    <li><Link href="/job_offers"><a>Post a job</a></Link></li>
                                     {/* <li><Link href="/contact"><a>Contact</a></Link></li> */}
                                  </ul>
                               </nav>
