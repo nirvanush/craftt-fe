@@ -229,7 +229,7 @@ p {
 
 		@each $shade,
 		$value in $shades {
-			--clr-#{$color}-#{$shade}: #{$value};
+			--clr-#{$color}-#{"" + $shade}: #{$value};
 		}
 	}
 }
